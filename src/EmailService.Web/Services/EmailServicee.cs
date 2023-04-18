@@ -6,10 +6,10 @@ using MailKit.Net.Smtp;
 using MailKit.Security;
 
 namespace EmailService.Web.Services;
-public class EmailService : IEmailService
+public class EmailServicee : IEmailService
 {
     private readonly IConfiguration _configuration;
-    public EmailService(IConfiguration configuration)
+    public EmailServicee(IConfiguration configuration)
     {
         this._configuration = configuration.GetSection("Email");   
     }
